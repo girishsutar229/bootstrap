@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/innerpage.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-light bg-white">
+        <div class="d-flex mx-3">
+            <div class="d-flex">
+                <img src="images/menu-bar.svg">
+                <img class="mx-3" src="images/header-logo.svg">
+            </div>
+            <div class="d-flex align-item-center mx-4">
+                <div>
+                    <img class="search-logo" src="images/search-icon.svg">
+                </div>
+                <input id="search-input" type="search" class="h-100" placeholder='Search' />
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="m-2">
+                <img src="images/notification-icon.svg">
+            </div>
+            <div>
+                <img src="images/profile.png">
+            </div>
+            <div class="m-2">
+                <p class="m-0">Jhon Doe</p>
+            </div>
+            <div class="m-2">
+                <img src="images/downward-arrow.svg">
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid ">
+        <div class="row">
+            <!--Sidebar-->
+            <nav id="sidebar" class="col-md-2 col-lg-2 d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav ulitem flex-column">
+                        <li class="nav-item">
+                            <img class="img-size" src="./images/dashboard-active.svg" alt="">
+                            <a class="nav-link active" href="#"> 
+                               Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <img src="./images/graph-default.svg" alt="">
+                            <a class="nav-link" href="#">
+                               Analysis
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <img src="./images/inbox-default.svg" alt="">
+                            <a class="nav-link" href="#">
+                                Inbox
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <img src="./images/clock-default.svg" alt="">
+                            <a class="nav-link" href="#">
+                               History
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <img src="./images/user-default.svg" alt="">
+                            <a class="nav-link" href="#">
+                                Users
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <img src="./images/maintenance-default.svg" alt="no icon">
+                            <a class="nav-link" href="#">
+                                Maintenance
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <img src="./images/setting-default.svg" alt="">
+                            <a class="nav-link" href="#">
+                                Setting
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- dashboard -->
+            <div class="col-md-10 col-lg-10 bg-light">
+                <div class="container-fluid pt-3 pl-3">
+                    <div class="row">
+                        <h2>Analysis</h2>
+                    </div>
+                    <!--first row-->
+                    <div class="row ">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

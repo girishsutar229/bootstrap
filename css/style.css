@@ -1,0 +1,131 @@
+@media screen and (min-width:1281px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background: #FAFAFA;
+    }
+
+    .main {
+        margin: 30px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 165px;
+    }
+
+    .left-side img {
+        width: 576px;
+        height: 576px;
+        background: transparent;
+        box-shadow: 0px 4px 31px #0000000A;
+        border-radius: 50%;
+        border: 20px solid #FFFFFF;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    body {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0;
+        padding: 0;
+        background: #FAFAFA;
+    }
+
+    .main {
+        margin: 30px;
+        height: 100%;
+        width: 100%;
+        background: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .left-side img {
+        width: 450px;
+        height: 450px;
+        background: transparent;
+        box-shadow: 0px 4px 31px #0000000A;
+        border-radius: 50%;
+        border: 20px solid #FFFFFF;
+    }
+}
+
+.heading {
+    width: 500px;
+    height: 100px;
+    text-align: left;
+    font: normal normal 300 40px/47px Roboto;
+    color: #3E3E3E;
+}
+
+.experts {
+    color: #C8242F
+}
+
+.acountheading {
+    width: 260px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 25px/33px Roboto;
+    color: #3E3E3E;
+}
+
+input[type=text] {
+    width: 429px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+
+input[type=password] {
+    width: 429px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+
+input[type=button] {
+    margin-left: 0px;
+    width: 138px;
+    height: 45px;
+    background: #C8242F;
+    border-radius: 23px;
+}
+
+.forget {
+    width: 121px;
+    height: 20px;
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD;
+}
+
+.Login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member {
+    width: 160px;
+    height: 20px;
+    font: normal normal normal 15px/20px Roboto;
+    color: #ADADAD;
+}
+
+.register {
+    width: 88px;
+    height: 20px;
+    font: normal normal normal 15px/20px Roboto;
+    color: #C8242F;
+
+}

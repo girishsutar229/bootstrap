@@ -1,0 +1,130 @@
+.search-logo {
+    width: 15px;
+    height: 15px;
+}
+
+#search-input {
+    border: none;
+    background: transparent;
+}
+
+.small-size-nav {
+    justify-content: space-between;
+}
+
+  /* DAshboard */
+
+.roboto-medium-25 {
+    font: normal normal 500 25px/33px Roboto;
+}
+
+.roboto-regular-15 {
+    font: normal normal normal 15px/20px Roboto;
+}
+
+.roboto-medium-22 {
+    font: normal normal 500 22px/29px Roboto;
+}
+
+.roboto-regular-12 {
+    font: normal normal normal 12px/16px Roboto;
+}
+
+.sale-chart {
+    justify-content: space-between;
+}
+
+.sale-chart-option {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#yearly {
+    color: #C8242F
+}
+
+#data-graph {
+    max-width: 100%;
+    justify-content: center;
+}
+.dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dotred{
+    background: #C8242F 0% 0% no-repeat padding-box; 
+}
+.dotgreen{
+    background: #A2B86C 0% 0% no-repeat padding-box;
+}
+.dotorange{
+    background: #F16C20 0% 0% no-repeat padding-box;
+}
+.dotyellow{
+    background: #EBC844 0% 0% no-repeat padding-box;
+}
+.pie-chart{
+    justify-content: center;
+    align-items: center;
+}
+.tbheadcolor{
+    color: #ADADAD;
+}
+.tbbodycolor{
+   color: #3E3E3E ;
+}
+#paid{ 
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    color: #3CDD5F;
+    background: #EBFFEF;
+    border-radius: 10px;
+}
+#pending{
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    color: #BABABA;
+    background: #F8F8F8;
+    border-radius: 10px;
+}
+#failed{
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    color: #FF4545;
+    background:  #FFF5F5 ;
+    border-radius: 10px;
+}
+
+
+/* Sidebar */
+
+.ulitem{
+    gap: 20px;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ .nav-item a{
+    width: 60px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+ }
+ .nav-item img {
+    width: 50px;
+   height: 45px;
+ }
+ 
+
+ 
